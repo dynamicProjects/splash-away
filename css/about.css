@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.philospyClass,
+.goodJobClass {
+    width: 100%;
+    height: 33vh;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -1px;
+}
+
+.philospyClass {
+    background-image: url(../images/about-our-philosophy-bg.jpeg);
+}
+
+.goodJobClass {
+    background-image: url(../images/about-we-do-a-pretty-good-job-bg.jpeg);
+}
+
+.content {
+    padding: 20px; 
+}
+.content p {
+    transform: translate(-50%, -50%);
+    margin-left: 50%;
+    margin-top: 50px;
+}
+.content a {
+    color: #55acee;
+}
+section #awardsImage {
+    width: 1200px;
+    padding: 2em 0 2em 0;
+    margin: 0 auto;
+    text-align: center;
+}
+section #awardsImage .awardsImage{
+    display: inline-block;
+    margin: 0 0.75em;
+    padding: 1.3em 1.5em;
+    border-radius: 50%;
+}
+section #awardsImage .awardsImage img{
+    /* width:90px;
+    height: 90px; */
+    width: 238px;
+    height: 238px;
+}
+.awards h1{
+    font-size: 2em;
+    text-align: center;
+}
