@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Splash</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/signIn.css">
+    </head>
+    <body id="signIn">
+        <!-- Container to wrap everything -->
+        <div id="container">
+            <button id="openModalBtn">Sign In</button>
+            <!-- The modal -->
+            <div id="signInModal" class="modal">
+            <!-- Modal content -->
+            <div class="madalBox">
+                <img src="../Graphics/splash-wave.png" alt="Splash Wave">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>SIGN IN</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Email:<sup>*</sup></label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:<sup>*</sup></label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="forgotPassword">
+                            <a href="">Forgot password ?</a>
+                        </div>
+                        <div class="buttonClass">
+                            <input type="submit" value="Sign In">
+                            <input type="submit" value="Sign Up">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+      <!-- javascript injection -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="../JS-components/signIn.js"></script>
+    </body>
+</html>
