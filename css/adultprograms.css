@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'BodoniModa';
+    src: url('https://github.com/dynamicProjects/splash-group3/blob/dev-branch/Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz%2Cwght.ttf');
+}
+
+
+/* General Body Styling */
+body {
+    font-family: 'BodoniModa', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section Styling */
+.hero-wrapper {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 425px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Content Section Styling */
+.section {
+    padding: 20px;
+}
+
+.w3-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px; 
+}
+
+.w3-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 16px; 
+}
+
+.w3-col {
+    flex: 1;
+}
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* for small screens */
+@media (max-width: 600px) {
+    .w3-row {
+        flex-direction: column;
+    }
+
+    .hero {
+        height: 300px; /* for smaller screens */
+    }
+}
