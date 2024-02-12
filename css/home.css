@@ -1,0 +1,230 @@
+/* Navbar*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #1A2E38;
+    opacity: 0.9;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 260px;
+    padding: 15px 0;
+    margin-left: 30px;
+}
+
+.main-menu ul {
+    width: 100%;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin: 1em 0.75em;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.registerButton {
+    width: 300px;
+    padding-top: 25px;
+}
+
+.registerButton button {
+    border-radius: 2em;
+    padding: 0.75em 1.25em;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans';
+    color: #03B1F4;
+}
+
+/* Body */
+.titleImageSection {
+    width: 100%;
+}
+
+.titleImageSection img {
+    width: 100%;
+}
+
+.registerHiring {
+    width: 70%;
+    margin: auto;
+    padding-top: 0.5em;
+}
+
+.registerHiring img {
+    width: 100%;
+    padding: 0.5em 0;
+}
+
+.handsOnTeaching {
+    width: 100%;
+    padding-top: 0.5em;
+}
+
+.handsOnTeaching img {
+    width: 100%;
+}
+
+.locations {
+    position: relative;
+    width: 100%;
+    margin-top: -4px;
+}
+
+.locations .bg {
+    width: 100%;
+}
+
+.locations .map {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.awards {
+    width: 100%;
+    margin: auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.awards .awardImages {
+    width: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.awards .awardImages img {
+    width: 150px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    margin-top: 2em;
+    padding: 6em 0;
+    background-image: url("../images/footer-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    text-align: center;
+}
+
+.footerLogo {
+    padding-bottom: 3em;
+}
+
+#footerTop {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.footerSocial {
+    padding: 0.5em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+}
+
+.footerSocial .fa {
+    padding: 8px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 2px;
+    border-radius: 50%;
+}
+
+.footerSocial .fa-linkedin {
+    color: white;
+    background-color: #135f98;
+}
+
+.footerSocial .fa-instagram {
+    color: white;
+    background-color: #646668;
+}
+
+.footerSocial .fa-twitter {
+    color: white;
+    background-color: #3bdffe;
+}
+
+.footerSocial .fa-yelp {
+    color: white;
+    background-color: #cc0922;
+}
+
+.footerSocial .fa-facebook {
+    color: white;
+    background-color: #72b4fb;
+}
+
+.footerSocial .fa-youtube {
+    color: white;
+    background-color: #cc0922;
+}
+
+.footerLinks ul li {
+    display: inline-block;
+    margin: 0 0.5em;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+footer hr {
+    width: 85%;
+    height: 1px;
+    background-color: #d7d6d6;
+    border: none
+}
+
+.footerLocations {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 0;
+}
+
+.footerLocation {
+    font-weight: bold;
+}
+
+.footerLocations .footerPhone {
+    text-decoration: underline;
+}
+
+#footerBottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 5.5em;
+}
+
+#footerBottom .sponsors img {
+    padding: 0 0.5em;
+}
