@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Bodoni Moda Regular";
+    src: url("../Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bodoni Moda Italic";
+    src: url("../Fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Henny Penny";
+    src: url("../Fonts/Henny-Penny/HennyPenny-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../Fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+}
