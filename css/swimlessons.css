@@ -1,0 +1,46 @@
+body {
+    font-size: 16px;
+    line-height: 2;
+    font-family: "Abril Fatface","cursive";
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    color: #333333;
+    margin: 0px;
+}
+.layout {
+    background: url(../images/which-lesson-is-best.jpeg) 0 -200px no-repeat; /* place image as background */
+    background-size: cover;
+    width: 100%;
+    background-position: 50%;
+    height: 425px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+header {
+    color: whitesmoke;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+}
+.swimminglesson {
+    padding: 0 100px;
+    margin: 0 50px;
+}
+.content {
+    text-align: justify;
+    font-size: large;
+}
+.content h1 {
+    text-align: center;
+    margin: 4rem 0;
+}
+.content .lessontype {
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+.content a {
+    color: #00b1f4;
+    cursor: pointer;
+}
