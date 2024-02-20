@@ -1,0 +1,162 @@
+/* Navbar*/
+nav {
+    background-color: #1A2E38;
+}
+
+.nav-icon {
+    height: 24px;
+    width: 32px;
+    position: relative;
+}
+
+.bar {
+    background-color: #fff;
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.bar-1 {
+    width: 80%;
+    top: 0;
+}
+
+.bar-2 {
+    top: 47.5%;
+}
+
+.bar-3 {
+    width: 50%;
+    bottom: 0;
+}
+
+.logo img {
+    width: 300px;
+}
+
+nav ul li {
+    /* Add font family here */
+    font-weight: 500;
+    font-size: 14px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+}
+
+.registerButton button {
+    /*font-family: 'Open Sans';*/
+    font-weight: 500;
+    font-size: 14px;
+    color: #03B1F4;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    margin-top: 2em;
+    padding: 6em 0;
+    background-image: url("../images/footer-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    text-align: center;
+}
+
+.footerLogo {
+    padding-bottom: 3em;
+}
+
+#footerTop {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.footerSocial {
+    padding: 0.5em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+}
+
+.footerSocial .fa {
+    padding: 8px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 2px;
+    border-radius: 50%;
+}
+
+.footerSocial .fa-linkedin {
+    color: white;
+    background-color: #135f98;
+}
+
+.footerSocial .fa-instagram {
+    color: white;
+    background-color: #646668;
+}
+
+.footerSocial .fa-twitter {
+    color: white;
+    background-color: #3bdffe;
+}
+
+.footerSocial .fa-yelp {
+    color: white;
+    background-color: #cc0922;
+}
+
+.footerSocial .fa-facebook {
+    color: white;
+    background-color: #72b4fb;
+}
+
+.footerSocial .fa-youtube {
+    color: white;
+    background-color: #cc0922;
+}
+
+.footerLinks ul li {
+    display: inline-block;
+    margin: 0 0.5em;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+footer hr {
+    width: 85%;
+    height: 1px;
+    background-color: #d7d6d6;
+    border: none
+}
+
+.footerLocations {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 0;
+}
+
+.footerLocation {
+    font-weight: bold;
+}
+
+.footerLocations .footerPhone {
+    text-decoration: underline;
+}
+
+#footerBottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 5.5em;
+}
+
+#footerBottom .sponsors img {
+    padding: 0 0.5em;
+}
