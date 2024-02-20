@@ -1,60 +1,58 @@
 /* Navbar*/
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 nav {
-    display: flex;
-    width: 100%;
-    height: 100px;
     background-color: #1A2E38;
-    opacity: 0.9;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
+.nav-icon {
+    height: 24px;
+    width: 32px;
+    position: relative;
+}
+
+.bar {
+    background-color: #fff;
+    display: block;
+    height: 3px;
     left: 0;
+    position: absolute;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.bar-1 {
+    width: 80%;
+    top: 0;
+}
+
+.bar-2 {
+    top: 47.5%;
+}
+
+.bar-3 {
+    width: 50%;
+    bottom: 0;
 }
 
 .logo img {
-    width: 260px;
-    padding: 15px 0;
-    margin-left: 30px;
-}
-
-.main-menu ul {
-    width: 100%;
-    margin-right: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.main-menu ul li {
-    display: inline-block;
-    margin: 1em 0.75em;
-    font-size: 14px;
-    font-family: 'Open Sans';
-}
-
-.main-menu ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-.registerButton {
     width: 300px;
-    padding-top: 25px;
+}
+
+nav ul li {
+    /* Add font family here */
+    font-weight: 500;
+    font-size: 14px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
 }
 
 .registerButton button {
-    border-radius: 2em;
-    padding: 0.75em 1.25em;
-    background-color: #FFFFFF;
-    font-family: 'Open Sans';
+    /*font-family: 'Open Sans';*/
+    font-weight: 500;
+    font-size: 14px;
     color: #03B1F4;
+    width: 100%;
 }
 
 /* Body */

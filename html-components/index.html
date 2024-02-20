@@ -3,27 +3,61 @@
     <head>
         <title>Splashes</title>
         <meta charset="utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Font awesome CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../css/home.css">
+        <link rel="stylesheet" href="../css/home_bootstrap.css">
     </head>
-    <body>
+    <body id="home">
         <div>
             <header>
-                <div class="main-header">
-                    <nav class="main-menu sticky">
-                        <div class="logo">
-                            <img src="../Graphics/logo-small.png" alt="Splashes">
+                <div>
+                    <nav class="fixed-top navbar navbar-expand-xl navbar-dark">
+                        <div class="logo mx-3">
+                            <a href="#">
+                                <img src="../Graphics/logo-small.png" alt="Splashes">
+                            </a>
                         </div>
-                        <ul>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="swimming-lessons.html">Swimming Lessons</a></li>
-                            <li><a href="swim-programs.html">Swim Programs</a></li>
-                            <li><a href="adult-programs.html">Adult Programs</a></li>
-                            <li><a href="locations.html">Locations</a></li>
-                            <li><a href="contactUs.html">Contact Us</a></li>
-                        </ul>
-                        <div class="registerButton">
-                            <button>Register / Sign in</button>
+
+                        <!-- Hamburger Menu -->
+                        <button class = "navbar-toggler border-0" type = "button" data-toggle = "collapse" 
+                            data-target = "#navbarContent" 
+                            aria-controls = "navbarContent" aria-expanded = "false" 
+                            aria-label = "Toggle navigation">
+                            
+                            <div class="nav-icon">
+                                <span class="bar bar-1"></span>
+                                <span class="bar bar-2"></span>
+                                <span class="bar bar-3"></span>
+                            </div>
+                        </button>
+
+                        <div class="collapse navbar-collapse hamburgerMenu" id="navbarContent">
+                            <ul class="navbar-nav w-100 mt-4 mt-xl-n4 mx-xl-3 d-flex justify-content-start justify-content-xl-end">
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="swimming-lessons.html">Swimming Lessons</a>
+                                </li>
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="swim-programs.html">Swim Programs</a>
+                                </li>
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="adult-programs.html">Adult Programs</a>
+                                </li>
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="locations.html">Locations</a>
+                                </li>
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="contactUs.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item px-4 px-xl-2 mt-1 mt-xl-2 registerButton">
+                                    <button class="p-2 px-4 rounded-pill bg-white">Register / Sign in</button>
+                                </li>
+                            </ul>
                         </div>
                     </nav>
                 </div>
@@ -121,5 +155,9 @@
                 </div>
             </footer>
         </div>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
 </html>
