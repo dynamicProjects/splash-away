@@ -57,18 +57,11 @@ nav ul li a {
 
 /* Footer */
 footer {
-    width: 100%;
-    margin-top: 2em;
-    padding: 6em 0;
     background-image: url("../images/footer-bg.jpeg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
     text-align: center;
-}
-
-.footerLogo {
-    padding-bottom: 3em;
 }
 
 #footerTop {
@@ -83,17 +76,16 @@ footer {
     margin-bottom: 1em;
 }
 
-.footerSocial .fa {
-    padding: 8px;
+.footerSocial .fa-brands {
+    padding: 0.5em;
     font-size: 20px;
-    width: 20px;
+    width: 2em;
     text-align: center;
     text-decoration: none;
     margin: 0 2px;
-    border-radius: 50%;
 }
 
-.footerSocial .fa-linkedin {
+.footerSocial .fa-linkedin-in {
     color: white;
     background-color: #135f98;
 }
@@ -113,7 +105,7 @@ footer {
     background-color: #cc0922;
 }
 
-.footerSocial .fa-facebook {
+.footerSocial .fa-facebook-f {
     color: white;
     background-color: #72b4fb;
 }
