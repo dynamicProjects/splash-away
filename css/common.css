@@ -64,19 +64,7 @@ footer {
     text-align: center;
 }
 
-#footerTop {
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-}
-
-.footerSocial {
-    padding: 0.5em;
-    margin-right: 3em;
-    margin-bottom: 1em;
-}
-
-.footerSocial .fa-brands {
+footer .fa-brands {
     padding: 0.5em;
     font-size: 20px;
     width: 2em;
@@ -85,37 +73,37 @@ footer {
     margin: 0 2px;
 }
 
-.footerSocial .fa-linkedin-in {
+footer .fa-linkedin-in {
     color: white;
     background-color: #135f98;
 }
 
-.footerSocial .fa-instagram {
+footer .fa-instagram {
     color: white;
     background-color: #646668;
 }
 
-.footerSocial .fa-twitter {
+footer .fa-twitter {
     color: white;
     background-color: #3bdffe;
 }
 
-.footerSocial .fa-yelp {
+footer .fa-yelp {
     color: white;
     background-color: #cc0922;
 }
 
-.footerSocial .fa-facebook-f {
+footer .fa-facebook-f {
     color: white;
     background-color: #72b4fb;
 }
 
-.footerSocial .fa-youtube {
+footer .fa-youtube {
     color: white;
     background-color: #cc0922;
 }
 
-.footerLinks ul li {
+footer ul li {
     display: inline-block;
     margin: 0 0.5em;
     font-size: 14px;
@@ -129,17 +117,11 @@ footer hr {
     border: none
 }
 
-.footerLocations {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1em 0;
-}
-
-.footerLocation {
+.footerContacts .location {
     font-weight: bold;
 }
 
-.footerLocations .footerPhone {
+.footerContacts .phone {
     text-decoration: underline;
 }
 
