@@ -6,6 +6,7 @@
             url: "../html-components/signIn.html", 
             success: function(data) {
                 $('#modalContainer').html(data);
+                $('#modalContainer').show();
                 $("#signInModal").fadeIn();
             }
         });
