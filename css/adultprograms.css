@@ -74,13 +74,3 @@ a:hover {
     text-decoration: underline;
 }
 
-/* for small screens */
-@media (max-width: 600px) {
-    .row {
-        flex-direction: column;
-    }
-
-    .hero {
-        height: 300px; /* for smaller screens */
-    }
-}
