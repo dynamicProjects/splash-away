@@ -1,0 +1,65 @@
+/* Body */
+.titleImageSection {
+    width: 100%;
+}
+
+.titleImageSection img {
+    width: 100%;
+}
+
+.registerHiring {
+    width: 70%;
+    margin: auto;
+    padding-top: 0.5em;
+}
+
+.registerHiring img {
+    width: 100%;
+    padding: 0.5em 0;
+}
+
+.handsOnTeaching {
+    width: 100%;
+    padding-top: 0.5em;
+}
+
+.handsOnTeaching img {
+    width: 100%;
+}
+
+.locations {
+    position: relative;
+    width: 100%;
+    margin-top: -4px;
+}
+
+.locations .bg {
+    width: 100%;
+}
+
+.locations .map {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.awards {
+    width: 100%;
+    margin: auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.awards .awardImages {
+    width: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.awards .awardImages img {
+    width: 150px;
+}

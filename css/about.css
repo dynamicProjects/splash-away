@@ -1,5 +1,6 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    font-family: "Open Sans",sans-serif;
+    color: #4a4a4a;
 }
 
 .philospyClass,
@@ -53,7 +54,7 @@ section #awardsImage .awardsImage img{
     width: 238px;
     height: 238px;
 }
-.awards h1{
+/* .awards h1{
     font-size: 2em;
     text-align: center;
-}
+} */
