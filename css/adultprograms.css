@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'BodoniModa';
-    src: url('https://github.com/dynamicProjects/splash-group3/blob/dev-branch/Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz%2Cwght.ttf');
+    font-family: "Bodoni Moda Regular";
+    src: url("../Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf") format("truetype");
 }
 
 
@@ -16,6 +16,7 @@ body {
     position: relative;
     text-align: center;
     color: white;
+    padding-top: 80px;
 }
 
 .hero {
@@ -25,6 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 70px;
 }
 
 .page-title {
@@ -33,25 +35,23 @@ body {
 }
 
 /* Content Section Styling */
-.section {
+.container {
     padding: 20px;
 }
 
-.w3-row {
+.row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -16px; 
 }
 
-.w3-content {
+.content {
     max-width: 1200px;
     margin: auto;
     padding: 0 16px; 
+    padding-top: 70px;
 }
 
-.w3-col {
-    flex: 1;
-}
 
 h2 {
     color: #333;
@@ -76,7 +76,7 @@ a:hover {
 
 /* for small screens */
 @media (max-width: 600px) {
-    .w3-row {
+    .row {
         flex-direction: column;
     }
 

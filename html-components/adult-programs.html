@@ -1,44 +1,164 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Adult Programs</title>
-    <link rel="stylesheet" href="../css/adultprograms.css">
-</head>
+    <head>
+        <title>Splashes</title>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Font awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/adultprograms.css">
+    </head>
 <body>
+    <header>
+        <div>
+            <nav class="fixed-top navbar navbar-expand-xl navbar-dark">
+                <div class="logo mx-3">
+                    <a href="#">
+                        <img src="../Graphics/logo-small.png" alt="Splashes">
+                    </a>
+                </div>
 
-<div class="hero-wrapper home">
-    <div class="hero" style="background-image: url('../images/lap-swimming.jpeg'); max-height: 425px;">
-        <div class="layout">
-            <div class="content">
-                <h1 class="page-title">Adult Lap Swimming</h1>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="section">
-    <div class="w3-row">
-        <div class="w3-content w3-row-padding">
-            <div class="w3-col">
-                <div style="line-height: 2">
-                    <h2>Get Fit & Stay Fit With Daily Lap Swimming</h2>
-                    <div style="text-align: left;">
-                        <p>Adult lap swimming provides a full-body workout that targets the core, arms, back, and legs. It also provides swimmers with access to various training methods including strength training, aerobic training, and low-impact training.</p>
-                        <p>If you are looking to improve your workout routine, be sure to stop by a Waterworks Aquatics location to learn more about adult lap swimming. Swimmers will find that there are times throughout the week that will work with your schedule.&nbsp;</p>
-                        <p>Each lane will have up to two lap swimmers. Children under the age of 14 must be accompanied by their parent and able to swim 200 yards of the pool on their own. Lanes are limited during shared pool usage. No private instruction, coaching, or therapy is permitted. No Lifeguard on duty. **NOTE: If you would like to reserve the entire lane for yourself, and not have to share with another swimmer, you may reserve both A and B slots for your selected lane/time.**</p>
-                        <p><strong>Find Lap Swimming Near You</strong><br>
-                        <a href="https://gap.westcliff.edu">Irvine</a><br>
-                        <a href="https://gap.westcliff.edu">Huntington Beach</a><br>
-                        <a href="https://gap.westcliff.edu">Carlsbad</a><br>
-                        <a href="https://gap.westcliff.edu">Pasadena</a><br>
-                        <a href="https://gap.westcliff.edu">San Jose</a><br>
-                        <a href="https://gap.westcliff.edu">Denver/Highlands Ranch</a></p>
+                <!-- Hamburger Menu -->
+                <button class = "navbar-toggler border-0" type = "button" data-toggle = "collapse" 
+                    data-target = "#navbarContent" 
+                    aria-controls = "navbarContent" aria-expanded = "false" 
+                    aria-label = "Toggle navigation">
+                    
+                    <div class="nav-icon">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
                     </div>
+                </button>
+
+                <div class="collapse navbar-collapse hamburgerMenu" id="navbarContent">
+                    <ul class="navbar-nav w-100 mt-4 mt-xl-n4 mx-xl-3 d-flex justify-content-start justify-content-xl-end">
+                        <li class="nav-item p-3 px-xl-2">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav-item p-3 px-xl-2">
+                            <a href="swimming-lessons.html">Swimming Lessons</a>
+                        </li>
+                        <li class="nav-item p-3 px-xl-2">
+                            <a href="swim-programs.html">Swim Programs</a>
+                        </li>
+                        <li class="nav-item p-3 px-xl-2">
+                            <a href="adult-programs.html">Adult Programs</a>
+                        </li>
+                        <li class="nav-item p-3 px-xl-2">
+                            <a href="locations.html">Locations</a>
+                        </li>
+                        <li class="nav-item p-3 px-xl-2">
+                            <a href="contactUs.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item px-4 px-xl-2 mt-1 mt-xl-2 registerButton">
+                            <button id="openSignInModalBtn" class="p-2 px-4 rounded-pill bg-white">Register / Sign in</button>
+                        </li>
+                    </ul>
+                </div>
+                <div id="modalContainer"></div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero-wrapper home">
+        <div class="hero" style="background-image: url('../images/lap-swimming.jpeg'); max-height: 425px;">
+            <div class="layout">
+                <div class="content">
+                    <h1 class="page-title">Adult Lap Swimming</h1>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                <h2>Get Fit & Stay Fit With Daily Lap Swimming</h2>
+                <div>
+                    <p>Adult lap swimming provides a full-body workout that targets the core, arms, back, and legs. It also provides swimmers with access to various training methods including strength training, aerobic training, and low-impact training.</p>
+                    <p>If you are looking to improve your workout routine, be sure to stop by a Waterworks Aquatics location to learn more about adult lap swimming. Swimmers will find that there are times throughout the week that will work with your schedule.&nbsp;</p>
+                    <p>Each lane will have up to two lap swimmers. Children under the age of 14 must be accompanied by their parent and able to swim 200 yards of the pool on their own. Lanes are limited during shared pool usage. No private instruction, coaching, or therapy is permitted. No Lifeguard on duty. **NOTE: If you would like to reserve the entire lane for yourself, and not have to share with another swimmer, you may reserve both A and B slots for your selected lane/time.**</p>
+                    <p><strong>Find Lap Swimming Near You</strong><br>
+                    <a href="https://gap.westcliff.edu">Irvine</a><br>
+                    <a href="https://gap.westcliff.edu">Huntington Beach</a><br>
+                    <a href="https://gap.westcliff.edu">Carlsbad</a><br>
+                    <a href="https://gap.westcliff.edu">Pasadena</a><br>
+                    <a href="https://gap.westcliff.edu">San Jose</a><br>
+                    <a href="https://gap.westcliff.edu">Denver/Highlands Ranch</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerLogo">
+            <img class="map" src="../images/wave-small.png" alt="Splashes">
+        </div>
+        <div id="footerTop">
+            <div class="footerLinks">
+                <ul>
+                    <li><a>About</a></li>
+                    <li><a>Locations</a></li>
+                    <li><a>FAQs</a></li>
+                    <li><a>Contact</a></li>
+                    <li><a>Register / Sign in</a></li>
+                    <li><a>Careers</a></li>
+                </ul>
+            </div>
+            <div class="footerSocial">
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-yelp"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="footerLocations">
+            <div>
+                <p class="footerLocation">Orange County</p>
+                <p class="footerPhone">(949) 450-0777</p>
+            </div>
+            <div>
+                <p class="footerLocation">San Diego County</p>
+                <p class="footerPhone">(760) 603-9400</p>
+            </div>
+            <div>
+                <p class="footerLocation">Los Angeles County</p>
+                <p class="footerPhone">(626) 836-1200</p>
+            </div>
+            <div>
+                <p class="footerLocation">Northern California</p>
+                <p class="footerPhone">(408) 279-1700</p>
+            </div>
+            <div>
+                <p class="footerLocation">Denver</p>
+                <p class="footerPhone">(720) 344-7700</p>
+            </div>
+        </div>
+        <hr>
+        <div id="footerBottom">
+            <div class="sponsors">
+                <img class="map" src="../images/sponsors/footer-usssa-logo-2.png" alt="sponsor1">
+                <img class="map" src="../images/sponsors/footer-ndpa-logo.png" alt="sponsor2">
+                <img class="map" src="../images/sponsors/footer-member-issa-logo.png" alt="sponsor3">
+                <img class="map" src="../images/sponsors/footer-stop-drowning-now-logo.png" alt="sponsor4">
+            </div>
+            <div id="copyright">
+                <p>&copy; 2022 Splashes.</p>
+                <p>All Rights Reserved</p>
+            </div>
+        </div>  
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../JS-components/common.js"></script>
+    
 
 </body>
 </html>
