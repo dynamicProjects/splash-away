@@ -1,6 +1,26 @@
 /* Navbar*/
-nav {
-    background-color: #1A2E38;
+@media only screen and (max-width: 1199px) {
+    header {
+        position: sticky;
+        z-index: 100;
+        top: 0;
+    }
+
+    nav {
+        background-color: #1a2e38;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+    }
+    
+    nav {
+        background-color: rgb(26, 46, 56, 0.9);
+    }
 }
 
 .nav-icon {
