@@ -19,7 +19,6 @@ body{
 
 .philospyClass {
     background-image: url(../images/about-our-philosophy-bg.jpeg);
-    margin-top: 104px;
 }
 
 .goodJobClass {
@@ -55,7 +54,7 @@ section #awardsImage .awardsImage img{
     width: 238px;
     height: 238px;
 }
-.awards h1{
+/* .awards h1{
     font-size: 2em;
     text-align: center;
-}
+} */
