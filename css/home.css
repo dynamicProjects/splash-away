@@ -22,10 +22,65 @@
 .handsOnTeaching {
     width: 100%;
     padding-top: 0.5em;
+    background-image: url("../images/home-hands-on-teaching.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 2200px;
 }
 
-.handsOnTeaching img {
+.handsOnTeaching {
     width: 100%;
+    padding-top: 0.5em;
+    background-image: none;
+}
+
+.handsOnTeachingText {
+    width: 100%;
+    padding: 5em 3em;
+}
+
+.handsOnTeachingText h2 {
+    padding-bottom: 1em;
+    font-family: 'Bodoni-Moda';
+    font-weight: bolder;
+}
+
+.handsOnTeachingText p, .handsOnTeachingText ul {
+    padding-bottom: 1em;
+}
+
+.offersTitle {
+    font-weight: bold;
+}
+
+.handsOnTeachingText ul li span {
+    text-decoration: underline;
+}
+
+.registerButtonContainer {
+    text-align: center;
+}
+
+.handsOnTeachingText button {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #03B1F4;
+}
+
+@media only screen and (min-width: 1200px) {
+    .handsOnTeaching {
+        width: 100%;
+        padding-top: 0.5em;
+        background-image: url("../images/home-hands-on-teaching.jpeg");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 2200px;
+    }
+
+    .handsOnTeachingText {
+        width: 50%;
+        padding: 3em 6em;
+    }
 }
 
 .locations {
