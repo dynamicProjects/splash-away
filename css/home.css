@@ -84,21 +84,59 @@
 }
 
 .locations {
+    width: 100%;
     position: relative;
-    width: 100%;
-    margin-top: -4px;
-}
-
-.locations .bg {
-    width: 100%;
+    background-image: url("../images/home-our-locations-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 
 .locations .map {
     height: 100%;
     position: absolute;
     top: 50%;
-    left: 80%;
-    transform: translate(-50%, -50%);
+    right: 0;
+    transform: translate(0%, -50%);
+    visibility: hidden;
+}
+
+.locationsText {
+    width: 100%;
+    text-align: center;
+    padding: 5em 2em;
+    color: white;
+}
+
+.locationsText h1 {
+    padding-bottom: 1em;
+    font-family: 'Bodoni-Moda';
+    font-weight: bolder;
+}
+
+.locationsText h3 {
+    padding-bottom: 1em;
+    font-family: 'Bodoni-Moda';
+    font-weight: bolder;
+}
+
+.locationsText p {
+    padding-bottom: 1em;
+}
+
+.locationsText button {
+    font-weight: bold;
+    background-color: #03B1F4;
+}
+
+@media only screen and (min-width: 1200px) {
+    .locationsText {
+        width: 525px;
+        padding: 8em 5em;
+    }
+    .locations .map {
+        visibility: visible;
+    }
 }
 
 .awards {
