@@ -7,6 +7,10 @@ body {
     color: #333333;
     margin: 0px;
 }
+header {
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.5;
+}
 .layout {
     background: url(../images/which-lesson-is-best.jpeg) 0 -200px no-repeat; /* place image as background */
     background-size: cover;
@@ -17,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
 }
-header {
+.layout h1 {
     color: whitesmoke;
     font-size: 60px;
     text-align: center;
