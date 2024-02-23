@@ -2,7 +2,23 @@ body{
     font-family: "Open Sans",sans-serif;
     color: #4a4a4a;
 }
-
+.aboutSplash {
+    background: url(../images/about-us-hero.jpeg) 0 -200px no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: 50%;
+    height: 425px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.aboutSplash h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+}
 .philospyClass,
 .goodJobClass {
     width: 100%;
@@ -19,23 +35,47 @@ body{
 
 .philospyClass {
     background-image: url(../images/about-our-philosophy-bg.jpeg);
+    background-size: cover;
+    width: 100%;
+    background-position: 50%;
+    height: 425px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .goodJobClass {
     background-image: url(../images/about-we-do-a-pretty-good-job-bg.jpeg);
+    background-size: cover;
+    width: 100%;
+    background-position: 50%;
+    height: 425px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .content {
-    padding: 20px; 
+    text-align: justify;
+    line-height: 2;
+}
+.content h1 {
+    text-align: center;
+    margin: 4rem 0;
 }
 .content p {
-    transform: translate(-50%, -50%);
-    margin-left: 50%;
-    margin-top: 50px;
+    margin-top: 2rem;
+    width: 50%;
+    margin-left: 25vw;
+    text-align: center;
 }
 .content a {
     color: #55acee;
+    margin-left: 38vw;
+    text-align: center;
 }
+
+
 section #awardsImage {
     width: 1200px;
     padding: 2em 0 2em 0;
@@ -49,12 +89,6 @@ section #awardsImage .awardsImage{
     border-radius: 50%;
 }
 section #awardsImage .awardsImage img{
-    /* width:90px;
-    height: 90px; */
     width: 238px;
     height: 238px;
 }
-/* .awards h1{
-    font-size: 2em;
-    text-align: center;
-} */
