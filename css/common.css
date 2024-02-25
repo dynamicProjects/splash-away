@@ -150,6 +150,10 @@ footer hr {
 }
 
 @media only screen and (max-width: 576px) {
+    footer .footerLogo {
+        width: 60%;
+    }
+    
     #footerBottom {
         padding: 1em 0;
     }
@@ -160,6 +164,10 @@ footer hr {
 }
 
 @media only screen and (min-width: 577px) {
+    footer .footerLogo {
+        width: 325px;
+    }
+    
     #footerBottom {
         padding: 1em 0;
         padding-bottom: 7em;
@@ -176,6 +184,10 @@ footer hr {
 }
 
 @media only screen and (min-width: 1200px) {
+    footer .footerLogo {
+        width: 25%;
+    }
+
     footer hr {
         width: 85%;
     }
