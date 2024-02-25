@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Bodoni Moda Regular";
+    src: url("../Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf") format("truetype");
+}
 
 body {
     color: #333;
@@ -7,11 +11,10 @@ body {
     line-height: 1.6em;
 }
 h1 {
-    font-family: Abril Fatface, cursive;
-    font-weight: 400;
+    font-family: "Bodoni Moda Regular", sans-serif;
+    font-weight: 900;
     line-height: 1.2;
-    font-size: 3.5em;
-    margin: 0 0 1rem;
+    font-size: 3.2em;
     position: relative;
 }
 
@@ -21,9 +24,6 @@ img {
     max-width: 100%;
 }
 
-a {
-    color: inherit;
-}
 
 .icontainer {
     float: left;
@@ -57,7 +57,6 @@ p {
     overflow: hidden;
     position: relative;
     text-align: center;
-    padding-top: 80px;
 }
 .hero-wrapper.home .hero {
     height: 880px;

@@ -200,3 +200,65 @@ footer hr {
         width: 800px;
     }
 }
+
+
+
+.dropdown-menu {
+    display: flex; /* Changed to flex to manage the column layout */
+    flex-wrap: wrap; /* Allows flex items to wrap as needed */
+    justify-content: center; /* Center flex items horizontally */
+    align-items: flex-start; /* Align flex items to the top */
+    background-color: #ffffff; /* whote background color */
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.15);
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-70%); /* Minimum width */
+    width: 1000px; /* Ensures dropdown menu width is as desired */
+    min-width: 600px; /* Minimum width */
+}
+
+.dropdown-menu table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px 10px; /* Adjust the spacing between columns and rows */
+}
+
+.dropdown-menu td {
+    min-width: 200px; /* Increased minimum width for each column */
+    padding: 10px; /* Spacing for content inside cells */
+    vertical-align: top; /* Aligns content to the top */
+}
+
+.dropdown-menu p {
+    font-weight: bold;
+    margin-bottom: 10px; /* Space below the region title */
+    color: #333; /* Title color */
+}
+
+.dropdown-menu a {
+    display: block; /* Each link is on its own line */
+    padding: 3px 0; /* Padding above and below each link */
+    color: #007bff; /* Bootstrap default link color */
+    text-decoration: none; /* No underline */
+    font-size: 14px; /* Adjust as needed */
+}
+
+.dropdown-menu a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    display: none; /* Override display none when dropdown is active */
+}
+
+#navbarDropdownMenuLink {
+    color: #ffffff; /* Change text color */
+    transform: translateY(-9px); /* Moves the link down 10px */
+
+}

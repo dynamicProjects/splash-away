@@ -14,8 +14,8 @@
 <body>
     <header>
         <div>
-            <nav class="fixed-top navbar navbar-expand-xl navbar-dark">
-                <div class="logo mx-3">
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <div class="logo">
                     <a href="#">
                         <img src="../Graphics/logo-small.png" alt="Splashes">
                     </a>
@@ -48,8 +48,68 @@
                         <li class="nav-item p-3 px-xl-2">
                             <a href="adult-programs.html">Adult Programs</a>
                         </li>
-                        <li class="nav-item p-3 px-xl-2">
-                            <a href="locations.html">Locations</a>
+                        <li class="nav-item dropdown p-3 px-xl-2 has-children">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Locations
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <table>
+                                    <tbody>
+                                      <tr>
+                                        <!-- Orange County Column -->
+                                        <td>
+                                          <p>Orange County</p>
+                                          <a href="locations/anaheim-hills">Anaheim Hills @ LA Fitness</a>
+                                          <a href="locations/huntington-beach">Huntington Beach</a>
+                                          <a href="locations/irvine">Irvine</a>
+                                          <a href="locations/yorba-linda">Yorba Linda @ LA Fitness</a>
+                                         <br>
+                                          <p>San Diego County</p>
+                                          <a href="locations/carlsbad">Carlsbad</a>
+                                          <a href="locations/poway">Poway @ LA Fitness</a>
+                                         <br>
+                                          <p>San Francisco</p>
+                                          <a href="locations/san-francisco-20th">San Francisco-20th Avenue @ City Sports Club</a>
+                                        </td>
+                                        
+                                        <!-- San Gabriel Valley Column -->
+                                        <td>
+                                          <p>San Gabriel Valley</p>
+                                          <a href="locations/pasadena">Pasadena</a>
+                                          <a href="locations/alhambra">Alhambra-Fremont @ LA Fitness</a>
+                                          <a href="locations/arcadia">Arcadia @ LA Fitness</a>
+                                          <a href="locations/diamond-bar">Diamond Bar @ LA Fitness</a>
+                                          <a href="locations/glendora">Glendora @ LA Fitness</a>
+                                          <a href="locations/la-verne">La Verne @ Esporta Fitness</a>
+                                          <a href="locations/west-covina">West Covina @ LA Fitness</a>
+                                          <br>
+                                          <p>Los Angeles County</p>
+                                          <a href="locations/culver-city">Culver City @ LA Fitness</a>
+                                          <a href="locations/harbor-city">Harbor City @ LA Fitness</a>
+                                    
+                                        </td>
+
+                                        <td>
+                                          <p>Silicon Valley</p>
+                                          <a href="locations/north-san-jose">North San Jose @ City Sports Club</a>
+                                          <a href="locations/san-jose-almaden">San Jose-Almaden @ City Sports Club</a>
+                                          <a href="locations/san-jose-bascom">San Jose-Bascom</a>
+                                          <a href="locations/san-jose-blossom-hill">San Jose-Blossom Hill @ City Sports Club</a>
+                                          <a href="locations/sunnyvale">Sunnyvale @ City Sports Club</a>
+                                          <br>
+                                          <p>Alameda County</p>
+                                          <a href="locations/hayward">Hayward @ City Sports Club</a>
+                                          <br>
+                                          <p>Denver</p>
+                                          <a href="locations/highlands-ranch">Highlands Ranch</a>
+                                       
+                                        </td>
+
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                              
                         </li>
                         <li class="nav-item p-3 px-xl-2">
                             <a href="contactUs.html">Contact Us</a>
@@ -59,7 +119,7 @@
                         </li>
                     </ul>
                 </div>
-                <div id="modalContainer"></div>
+                <div id="modalContainer" class="collapse"></div>
             </nav>
         </div>
     </header>
@@ -78,12 +138,12 @@
         <div class="row">
             <div class="content">
                 <h2>Get Fit & Stay Fit With Daily Lap Swimming</h2>
-                <div>
-                    <p>Adult lap swimming provides a full-body workout that targets the core, arms, back, and legs. It also provides swimmers with access to various training methods including strength training, aerobic training, and low-impact training.</p>
+                <div class="programs-text">
+                    <p class="paragraph1">Adult lap swimming provides a full-body workout that targets the core, arms, back, and legs. It also provides swimmers with access to various training methods including strength training, aerobic training, and low-impact training.</p>
                     <p>If you are looking to improve your workout routine, be sure to stop by a Waterworks Aquatics location to learn more about adult lap swimming. Swimmers will find that there are times throughout the week that will work with your schedule.&nbsp;</p>
                     <p>Each lane will have up to two lap swimmers. Children under the age of 14 must be accompanied by their parent and able to swim 200 yards of the pool on their own. Lanes are limited during shared pool usage. No private instruction, coaching, or therapy is permitted. No Lifeguard on duty. **NOTE: If you would like to reserve the entire lane for yourself, and not have to share with another swimmer, you may reserve both A and B slots for your selected lane/time.**</p>
                     <p><strong>Find Lap Swimming Near You</strong><br>
-                    <a href="https://gap.westcliff.edu">Irvine</a><br>
+                    <a class="atext" href="https://gap.westcliff.edu">Irvine</a><br>
                     <a href="https://gap.westcliff.edu">Huntington Beach</a><br>
                     <a href="https://gap.westcliff.edu">Carlsbad</a><br>
                     <a href="https://gap.westcliff.edu">Pasadena</a><br>
