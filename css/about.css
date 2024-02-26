@@ -1,0 +1,94 @@
+body{
+    font-family: "Open Sans",sans-serif;
+    color: #4a4a4a;
+}
+.aboutSplash {
+    background: url(../images/about-us-hero.jpeg) 0 -200px no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: 50%;
+    height: 425px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.aboutSplash h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+}
+.philospyClass,
+.goodJobClass {
+    width: 100%;
+    height: 33vh;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -1px;
+}
+
+.philospyClass {
+    background-image: url(../images/about-our-philosophy-bg.jpeg);
+    background-size: cover;
+    width: 100%;
+    background-position: 50%;
+    height: 425px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.goodJobClass {
+    background-image: url(../images/about-we-do-a-pretty-good-job-bg.jpeg);
+    background-size: cover;
+    width: 100%;
+    background-position: 50%;
+    height: 425px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    text-align: justify;
+    line-height: 2;
+}
+.content h1 {
+    text-align: center;
+    margin: 4rem 0;
+}
+.content p {
+    margin-top: 2rem;
+    width: 50%;
+    margin-left: 25vw;
+    text-align: center;
+}
+.content a {
+    color: #55acee;
+    margin-left: 38vw;
+    text-align: center;
+}
+
+
+section #awardsImage {
+    width: 1200px;
+    padding: 2em 0 2em 0;
+    margin: 0 auto;
+    text-align: center;
+}
+section #awardsImage .awardsImage{
+    display: inline-block;
+    margin: 0 0.75em;
+    padding: 1.3em 1.5em;
+    border-radius: 50%;
+}
+section #awardsImage .awardsImage img{
+    width: 238px;
+    height: 238px;
+}

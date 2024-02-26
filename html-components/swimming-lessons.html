@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Splash</title>
+        <meta charset="utf-8">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Font awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+        <link rel="stylesheet" href="../css/swimlessons.css">
+        <link rel="stylesheet" href="../css/common.css">
+
+    </head>
+    <body>
+        <!-- Container to wrap everything -->
+        <div id="container">
+            <!-- Header -->
+            <header class="sticky-top">
+                <div>
+                    <nav class="navbar navbar-expand-xl navbar-dark">
+                        <div class="logo mx-3">
+                            <a href="#">
+                                <img src="../Graphics/logo-small.png" alt="Splashes">
+                            </a>
+                        </div>
+
+                        <!-- Hamburger Menu -->
+                        <button class = "navbar-toggler border-0" type = "button" data-toggle = "collapse" 
+                            data-target = "#navbarContent" 
+                            aria-controls = "navbarContent" aria-expanded = "false" 
+                            aria-label = "Toggle navigation">
+                            
+                            <div class="nav-icon">
+                                <span class="bar bar-1"></span>
+                                <span class="bar bar-2"></span>
+                                <span class="bar bar-3"></span>
+                            </div>
+                        </button>
+
+                        <div class="collapse navbar-collapse hamburgerMenu" id="navbarContent">
+                            <ul class="navbar-nav w-100 mt-4 mt-xl-n4 mx-xl-3 d-flex justify-content-start justify-content-xl-end">
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="swimming-lessons.html">Swimming Lessons</a>
+                                </li>
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="swim-programs.html">Swim Programs</a>
+                                </li>
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="adult-programs.html">Adult Programs</a>
+                                </li>
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="locations.html">Locations</a>
+                                </li>
+                                <li class="nav-item p-3 px-xl-2">
+                                    <a href="contactUs.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item px-4 px-xl-2 mt-1 mt-xl-2 registerButton">
+                                    <button id="openSignInModalBtn" class="p-2 px-4 rounded-pill bg-white">Register / Sign in</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="modalContainer" class="collapse"></div>
+                    </nav>
+                </div>
+            </header>
+            <div class="layout">
+                <h1>Which Lesson is Best?</h1>
+            </div>
+            <main>
+                <div class="swimminglesson">
+                    <div class="content">
+                        <h1>Our Lesson Types</h1>
+                        <p class="lessontype">
+                            <strong>Private Swim Lessons</strong> 
+                            <br>
+                            Our <a href="#">private swim lessons</a> provide one-on-one instruction for students ages three months through adult. 
+                            Private swim lessons are the best option for accelerated learning. Each lesson will allow our instructors 
+                            to build on the momentum and skills taught in the previous lesson with minimal downtime. From the basics of 
+                            putting your face into the water to refining your stroke technique, private lessons will offer the highest 
+                            rate of progress.
+                            <br>
+                            <a href="#">Learn more here!</a>
+                        </p>
+                        <p class="lessontype">
+                            <strong>Semi-Private Swim Lessons</strong>
+                            <br>
+                            At Splashes, our <a href="#">semi-private swim lessons</a> offer students ages 2.5 to 13 the opportunity to interact with 
+                            another student of a similar age and ability while still receiving personal attention. Whether you would like 
+                            us to pair your child with another student of similar age and ability or would like to take lessons with a 
+                            friend or sibling, our semi-private lessons are a cost effective option. Students also have the opportunity 
+                            to observe one another in the lesson.
+                            <br>
+                            <a href="#">Learn more here!</a>
+                        </p>
+                        <p class="lessontype">
+                            <strong>Parent & Me Lessons</strong>
+                            <br>
+                            Our <a href="#">Parent and Me swimming lessons</a> (also known as “Mommy and Me” or “Daddy and Me” classes) gives parents 
+                            the opportunity to be hands-on with their little one while our instructors facilitate the learning process 
+                            between you and your child. These lessons provide a fun and relaxed environment for you and your child in the water. 
+                            Children ages 3 months through 3 years of age can participate. However, we encourage children ages 2.5 and older to 
+                            participate in private or semi-private swim lessons.
+                            <br>
+                            <a href="#">Learn more here!</a>
+                        </p>
+                        <p class="lessontype">
+                            <strong>Stroke Clinic</strong>
+                            <br>
+                            Splashes <a href="#">Stroke Clinics</a> give students the opportunity to advance their swimming techniques while in a group setting. 
+                            Our Stroke Clinic classes place emphasis on proper technique over speed and prepare students for swim team.<br>
+                            Swimmers ages 5 and older who are level 8 or higher can benefit from participating in these 40 minute classes. 
+                            A strong technical foundation will ensure that students' progress much faster when the time comes for them to work on speed. 
+                            Our stroke clinics are exciting and fast paced, where each student will receive a great workout.
+                            <br>
+                            <a href="#">Learn more here!</a>
+                        </p>
+                        <p class="lessontype"> 
+                            <strong>Adult Swim Lessons</strong>
+                            <br>
+                            It is never too late to learn how to swim! Whether you are looking to learn the basics or improve your technique to use swimming 
+                            as a form of exercise, our trained instructors will tailor each lesson to fit your individual needs. At Splashes, our adult lessons 
+                            are geared for swimmers ages 13 and older. From beginners to advanced, our <a href="#">adult swimming lessons</a> are a great option for those 
+                            looking to conquer their fear of the water or who are looking to become stronger swimmers.
+                            <br>
+                            <a href="#">Learn more here!</a>
+                        </p>
+                    </div>
+                </div>
+            </main> <!-- End  Main Content -->
+            <!-- Footer -->
+            <footer class="container-fluid mt-5 py-5">
+                <div class="container-xl py-5">
+                    <img class="footerLogo pb-5" src="../images/wave-small.png" alt="Splashes">
+                    <div class="row font-weight-bold">
+                        <div class="col-xl-6 text-xl-left">
+                            <ul>
+                                <li><a>About</a></li>
+                                <li><a>Locations</a></li>
+                                <li><a>FAQs</a></li>
+                                <li><a>Contact</a></li>
+                                <li><a>Register / Sign in</a></li>
+                                <li><a>Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-6 text-xl-right pr-xl-5">
+                            <a href="#" class="fa-brands fa-linkedin-in rounded-circle"></a>
+                            <a href="#" class="fa-brands fa-instagram rounded-circle"></a>
+                            <a href="#" class="fa-brands fa-twitter rounded-circle"></a>
+                            <a href="#" class="fa-brands fa-yelp rounded-circle"></a>
+                            <a href="#" class="fa-brands fa-facebook-f rounded-circle"></a>
+                            <a href="#" class="fa-brands fa-youtube rounded-circle"></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="footerContacts row my-4">
+                        <div class="col-xl-2 offset-xl-1 py-2">
+                            <p class="location">Orange County</p>
+                            <p class="phone mt-n2">(949) 450-0777</p>
+                        </div>
+                        <div class="col-xl-2 py-2">
+                            <p class="location">San Diego County</p>
+                            <p class="phone mt-n2">(760) 603-9400</p>
+                        </div>
+                        <div class="col-xl-2 py-2">
+                            <p class="location">Los Angeles County</p>
+                            <p class="phone mt-n2">(626) 836-1200</p>
+                        </div>
+                        <div class="col-xl-2 py-2">
+                            <p class="location">Northern California</p>
+                            <p class="phone mt-n2">(408) 279-1700</p>
+                        </div>
+                        <div class="col-xl-2 py-2">
+                            <p class="location">Denver</p>
+                            <p class="phone mt-n2">(720) 344-7700</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="footerBottom">
+                        <div class="sponsors">
+                            <img src="../images/sponsors/footer-usssa-logo-2.png" alt="sponsor1">
+                            <img src="../images/sponsors/footer-ndpa-logo.png" alt="sponsor2">
+                            <img src="../images/sponsors/footer-member-issa-logo.png" alt="sponsor3">
+                            <img src="../images/sponsors/footer-stop-drowning-now-logo.png" alt="sponsor4">
+                        </div>
+                        <div id="copyright">
+                            <p>&copy; 2022 Splashes.</p>
+                            <p class="mt-n2">All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </footer> 
+            <!-- End Footer -->
+        </div>
+        <!-- javascript codes -->
+        <!-- TODO later when refactoring -->
+        <script src=""></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="../JS-components/common.js"></script>
+    </body>
+</html>

@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Bodoni Moda Regular";
+    src: url("../Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+
+body {
+    color: #333;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+h1 {
+    font-family: "Bodoni Moda Regular", sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    font-size: 3.2em;
+    position: relative;
+}
+
+img {
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.icontainer {
+    float: left;
+    width: 100%;
+    margin: 25px 0;
+}
+
+
+.info-content {
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 0 100px;
+}
+
+p {
+    margin-bottom: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.section a {
+    color: #00b1f4;
+    text-align: center;
+}
+
+.hero {
+    background-image: url('../images/contact-hero.jpeg');
+    max-height: 425px;
+}
+.hero-wrapper {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.hero-wrapper.home .hero {
+    height: 880px;
+}
+
+.icon-text {
+    width: 200px; /* Adjust this width as necessary to fit your design */
+    word-wrap: break-word; /* Ensures that long words will wrap and not overflow */
+    text-align: center; /* Center-align the text for aesthetic alignment */
+    margin: 0 auto;
+}
+
+
+
+div,
+p {
+    box-sizing: border-box;
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+/* Styles for containers with icon content */
+.icontainer {
+    margin: 25px 0;
+}
+
+/* styling for icon containers */
+.icontainer .icon-display {
+    margin: 10px 15px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.hero-wrapper .hero {
+    background-color: #212121;
+    background-position: 50%;
+    background-size: cover;
+    height: 880px;
+    position: relative;
+}
+.hero-wrapper .hero .layout {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.hero-wrapper .hero .layout .content {
+    padding: 0 50px;
+    position: relative;
+    width: 100%;
+}
+.hero-wrapper .hero .layout .content .page-title {
+    color: #fff;
+    font-size: 3.5em;
+    line-height: 1.2;
+    margin: 0;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+}
+
+
+.icon-display {
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 10px 10px;
+}
+
+
+/* icontainer responsiveness */
+@media (min-width: 601px) {
+    .icontainer {
+        width: 25%;
+    }
+}
+
+/* Combined media queries for max-width: 1200px */
+@media screen and (max-width: 1200px) {
+    .info-content, .hero-wrapper.home .hero, .hero-wrapper.sub .hero, .hero-wrapper .hero .layout .content .page-title {
+        padding: 0 20px;
+    }
+    h1, .hero-wrapper .hero .layout .content .page-title {
+        font-size: 2.5em;
+    }
+    .hero-wrapper.home .hero {
+        height: 700px;
+    }
+    .hero-wrapper.sub .hero {
+        height: 420px;
+    }
+}
+
+/* Adjustments for specific breakpoints */
+@media screen and (max-width: 991px) {
+    .hero-wrapper.home .hero, .hero-wrapper.sub .hero {
+        height: 600px;
+    }
+    .hero-wrapper.sub .hero {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .hero-wrapper .hero .layout .content .page-title {
+        font-size: 2em;
+    }
+}
+
+/* for max-width: 768px */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.625em;
+    }
+    .hero-wrapper.home .hero, .hero-wrapper.sub .hero {
+        height: 400px;
+    }
+    .hero-wrapper.sub .hero {
+        height: 360px;
+    }
+}
+
+/* for max-width: 600px */
+@media screen and (max-width: 600px) {
+    .hero-wrapper.home .hero, .hero-wrapper.sub .hero, .hero-wrapper .hero .layout .content .page-title {
+        height: 350px;
+        font-size: 1.5em;
+    }
+    .hero-wrapper .hero .layout .content {
+        padding: 0 16px;
+    }
+}
+
+/* for max-width: 500px */
+@media screen and (max-width: 500px) {
+    .hero-wrapper.home .hero, .hero-wrapper.sub .hero, .hero-wrapper .hero .layout .content .page-title {
+        height: 300px;
+        font-size: 1.25em;
+    }
+    .hero-wrapper .hero .layout .content {
+        padding: 0 16px;
+    }
+}
