@@ -31,7 +31,8 @@
         // Append the list item to the ul
         ul.appendChild(li);
     })
-    // modal code 
+
+    /////// modal code ///////
     
   $(document).ready(function() {
     // Function to open sign-in modal
@@ -40,6 +41,7 @@
             url: "../html-components/signIn.html", 
             success: function(data) {
                 $('#modalContainer').html(data);
+                $('#modalContainer').show();
                 $("#signInModal").fadeIn();
             }
         });
