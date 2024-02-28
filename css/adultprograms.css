@@ -98,6 +98,33 @@ p a {
 
 }
 
+/* Combined media queries for mmin-width: 1200px */
+@media screen and (min-width: 1200px) {
+    h1, .hero-wrapper .hero .layout .content .page-title {
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 2rem;
+    }
+
+    .hero-wrapper.home .hero {
+        height: 700px;
+    }
+
+
+    p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        font-family: "Open Sans", sans-serif; 
+        padding: 0px;
+    }
+    
+    
+
+}
+
 /* Combined media queries for max-width: 1200px */
 @media screen and (max-width: 1200px) {
     h1, .hero-wrapper .hero .layout .content .page-title {
@@ -173,7 +200,7 @@ p a {
     }
 
     h2{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     
 
@@ -194,7 +221,7 @@ p a {
     }
 
     h2{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     p {
@@ -224,7 +251,7 @@ p a {
     }
 
     h2{
-        font-size: 1.6 rem;
+        font-size: 1.4 rem;
     }
 
     p {
