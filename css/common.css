@@ -30,7 +30,7 @@
 }
 
 .bar {
-    background-color: #fff;
+    background-color: #FFFFFF;
     display: block;
     height: 3px;
     left: 0;
@@ -58,7 +58,7 @@
 }
 
 nav ul li {
-    /* Add font family here */
+    font-family: 'Open Sans Bold';
     font-weight: 500;
     font-size: 14px;
 }
@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 .registerButton button {
-    /*font-family: 'Open Sans';*/
+    font-family: 'Open Sans Bold';
     font-weight: 500;
     font-size: 14px;
     color: #03B1F4;
@@ -128,6 +128,7 @@ footer ul li {
     margin: 0 0.5em;
     font-size: 14px;
     text-decoration: underline;
+    font-family: 'Open Sans Bold';
 }
 
 footer hr {
@@ -139,6 +140,7 @@ footer hr {
 
 .footerContacts .location {
     font-weight: bold;
+    font-family: 'Open Sans Bold';
 }
 
 .footerContacts .phone {

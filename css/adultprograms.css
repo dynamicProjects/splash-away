@@ -79,3 +79,163 @@ p a {
 }
 
 
+@media (min-width: 601px) {
+
+
+    p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        font-family: "Open Sans", sans-serif; 
+        padding: 0px;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+    
+
+}
+
+/* Combined media queries for max-width: 1200px */
+@media screen and (max-width: 1200px) {
+    h1, .hero-wrapper .hero .layout .content .page-title {
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 2rem;
+    }
+
+    .hero-wrapper.home .hero {
+        height: 700px;
+    }
+
+
+    p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        font-family: "Open Sans", sans-serif; 
+        padding: 0px;
+    }
+    
+    
+
+}
+
+/* Adjustments for specific breakpoints */
+@media screen and (max-width: 991px) {
+    .hero-wrapper.home .hero {
+        height: 600px;
+    }
+
+
+    p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        font-family: "Open Sans", sans-serif; 
+        padding: 0px;
+    }
+    
+
+}
+
+@media screen and (max-width: 960px) {
+    .hero-wrapper .hero .layout .content .page-title {
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.9rem;
+    }
+}
+
+/* for max-width: 768px */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.625em;
+    }
+    .hero-wrapper.home .hero {
+        height: 400px;
+    }
+
+    p {
+        color: #666;
+        line-height: 1.7;
+        margin-bottom: 20px;
+        font-size: 0.8rem;
+        font-family: "Open Sans", sans-serif; 
+        padding: 0px;
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+    
+
+}
+
+/* for max-width: 600px */
+@media screen and (max-width: 600px) {
+    .hero-wrapper.home .hero {
+        height: 350px;
+        padding-bottom: 0px;
+    }
+    .hero-wrapper .hero .layout .content .page-title {
+        font-size: 1.5em;
+    }
+    .hero-wrapper .hero .layout .content {
+        padding: 0 16px;
+
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+
+    p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        font-size: 0.8rem;
+        font-family: "Open Sans", sans-serif; 
+        padding: 0px;
+    }
+    
+
+}
+
+/* for max-width: 500px */
+@media screen and (max-width: 500px) {
+    .hero-wrapper.home .hero {
+        padding-bottom: 200px;
+        height: 300px;
+    }
+    .hero-wrapper .hero .layout .content .page-title {
+        font-size: 1.25em;
+    }
+    .hero-wrapper .hero .layout .content {
+        padding: 0 16px;
+        padding-top: 250px;
+    }
+
+    h2{
+        font-size: 1.6 rem;
+    }
+
+    p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        font-size: 0.8rem;
+        font-family: "Open Sans", sans-serif; 
+        padding: 0px;
+    }
+    
+    
+
+}

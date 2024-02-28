@@ -200,6 +200,7 @@ p {
     }
     .hero-wrapper .hero .layout .content {
         padding: 0 16px;
+        padding-top: 250px;
     }
 }
 
@@ -211,5 +212,6 @@ p {
     }
     .hero-wrapper .hero .layout .content {
         padding: 0 16px;
+        padding-top: 250px;
     }
 }
