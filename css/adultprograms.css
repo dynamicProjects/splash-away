@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Bodoni Moda Regular";
-    src: url("../Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf") format("truetype");
+    src: url("../fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf") format("truetype");
 }
 
 
 @font-face {
     font-family: "Open Sans";
-    src: url("../Fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+    src: url("../fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
 }
 
 
