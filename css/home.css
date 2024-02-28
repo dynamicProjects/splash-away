@@ -1,4 +1,8 @@
 /* Body */
+#home {
+    font-family: 'Open Sans';
+}
+
 .titleImageSection {
     background: url(../images/home.jpeg) no-repeat;
     background-size: cover;
@@ -8,11 +12,12 @@
 }
 
 .titleImageSection h1 {
-    font-family: 'Bodoni-Moda';
+    font-family: 'Bodoni Moda 72 bold';
 }
 
 .titleButtons {
     margin-top: 4em;
+    font-family: 'Open Sans Bold';
 }
 
 .titleButtons button {
@@ -55,7 +60,7 @@
 
 .handsOnTeachingText h2 {
     padding-bottom: 1em;
-    font-family: 'Bodoni-Moda';
+    font-family: 'Bodoni Moda';
     font-weight: bolder;
 }
 
@@ -64,7 +69,7 @@
 }
 
 .offersTitle {
-    font-weight: bold;
+    font-family: 'Open Sans Bold';
 }
 
 .handsOnTeachingText ul li span {
@@ -73,6 +78,7 @@
 
 .registerButtonContainer {
     text-align: center;
+    font-family: 'Open Sans Bold';
 }
 
 .handsOnTeachingText button {
@@ -108,17 +114,18 @@
 
 .locationsText h1 {
     padding-bottom: 1em;
-    font-family: 'Bodoni-Moda';
+    font-family: 'Bodoni Moda 72 bold';
     font-weight: bolder;
 }
 
 .locationsText h3 {
     padding-bottom: 1em;
-    font-family: 'Bodoni-Moda';
+    font-family: 'Bodoni Moda';
     font-weight: bolder;
 }
 
 .locationsText p {
+    color: #e4e4e4;
     padding-bottom: 1em;
 }
 
@@ -130,6 +137,11 @@
 .awards {
     padding: 30px 0;
     text-align: center;
+}
+
+.awards h1 {
+    font-family: 'Bodoni Moda';
+    font-weight: 600;
 }
 
 .awards .awardImages {
@@ -173,7 +185,7 @@
     }
 
     .titleImageSection h1 {
-        font-size: 4em;
+        font-size: 48px;
     }
 
     .titleButtons {
