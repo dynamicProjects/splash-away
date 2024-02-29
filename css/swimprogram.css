@@ -11,12 +11,15 @@ header {
     font-family: "Open Sans",sans-serif;
     line-height: 1.5;
 }
-.layout {
-    background: url(../images/summer-swim-camps.jpeg) 0 -200px no-repeat;
+.bgImage {
+    background: url(../images/summer-swim-camps.jpeg) no-repeat;
     background-size: cover;
-    width: 100%;
+    max-height: 480px;
     background-position: 50%;
-    height: 425px;
+    position: relative;
+    padding: 15% 0;
+}
+.layout {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -29,8 +32,6 @@ header {
     font-weight: bolder;
 }
 .swimmingprogram {
-    padding: 0 150px;
-    margin: 0 100px;
     text-align: center;
     align-items: center;
     font-size: 20px;
