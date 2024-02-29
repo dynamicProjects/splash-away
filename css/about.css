@@ -94,3 +94,14 @@ section #awardsImage .awardsImage img{
     width: 238px;
     height: 238px;
 }
+@media only screen and (max-width: 761px) {
+    .content {
+        text-align: justify;
+        line-height: 1;
+    }
+    .content a {
+        color: #55acee;
+        margin-left: 12vw;
+        text-align: center;
+    }
+}
