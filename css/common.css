@@ -200,6 +200,7 @@ footer hr {
 
     #footerBottom .sponsors {
         width: 800px;
+        margin-left: -6em;
     }
 }
 
